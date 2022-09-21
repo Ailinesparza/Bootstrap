@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'stabillomedium';
+    src: url('fonts/stabillo_medium-webfont.woff2') format('woff2'),
+         url('fonts/stabillo_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bs-body-bg: #FFFAF3;
+    --bs-light-rgb: 207, 238, 249;
+}
+
+
+.navbar-collapse {
+    flex-grow: inherit;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.navbar {
+--bs-navbar-hover-color: #33BFE7;
+--bs-navbar-padding-x: 2rem;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card-header {
+    color: #33BFE7;
+    background-color: rgb(255 249 196 / 100%);
+}
+
+.btn-outline-primary {
+  --bs-btn-hover-bg: #FFA4CA;
+  --bs-btn-hover-border-color: #99DFF3;
+  --bs-btn-color: #FFA4CA;
+  --bs-btn-border-color: #99DFF3;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #09B2E2;
+    --bs-btn-hover-bg: #FFBB58;
+    --bs-btn-border-color: #99DFF3;
+    --bs-btn-hover-border-color: #FFDAA5;
+}
+
+
